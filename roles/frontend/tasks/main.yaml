@@ -8,7 +8,7 @@
     name: nginx
     state: started
     enabled: yes
--
+
 - name: include common role
   include role:
     name: common
